@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Characters of Elarion</title>
   <style>
     body {
@@ -11,12 +11,28 @@
       font-family: 'Garamond', serif;
       color: #2b1e0f;
       margin: 0;
+      padding: 0;
     }
     header {
       background: #3b2d1f;
       color: #f8e4b2;
       text-align: center;
       padding: 40px 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 20px 0 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #f8e4b2;
+      text-decoration: none;
+      font-weight: bold;
     }
     .container {
       max-width: 1000px;
@@ -54,11 +70,23 @@
 </head>
 <body>
   <header>
-    <h1>Characters of Elarion</h1>
-    <p>Meet the heroes, villains, and curious souls that shape this magical world.</p>
+    <h1>Elarion</h1>
+    <p>A world of ancient magic, veined with mystery and power.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="#world">World</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#wiki">Wiki</a></li>
+      </ul>
+    </nav>
   </header>
 
   <div class="container">
+    <h2 style="text-align:center;">Meet the Characters</h2>
+
     <div class="character">
       <img src="images/omer.jpg" alt="Omer the Druid">
       <div class="info">
